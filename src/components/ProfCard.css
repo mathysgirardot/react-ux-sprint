@@ -1,0 +1,68 @@
+.prof-card {
+  position: relative;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.card-img {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-info {
+  padding: 1rem;
+}
+
+.card-info h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.city-format {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #735fff;
+  background: #f0f0ff;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.rating {
+  font-size: 0.9rem;
+  color: #ffa500;
+  margin-bottom: 0.5rem;
+}
+
+.first-offer {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #735fff;
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+
+.heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
