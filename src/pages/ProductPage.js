@@ -5,7 +5,7 @@ import ProfCard from '../components/ProfCard';
 import antony from '../assets/profils/antony.png';
 import julien from '../assets/profils/julien.png';
 import orson from '../assets/profils/orson.png';
-import melodie from '../assets/profils/melodie.png';
+import joel from '../assets/profils/joel.png';
 import antoine from '../assets/profils/antoine.png';
 import jn from '../assets/profils/jean-nicolas.png';
 
@@ -60,14 +60,14 @@ function ProductPage() {
           image={orson}
         />
         <ProfCard
-          name="Melodie"
-          city="Bordeaux"
+          name="Joël Bourienne"
+          city="Paris"
           format="visio"
-          price={25}
+          price={120}
           rating={4.9}
           reviews={36}
-          badge="Ambassadrice"
-          image={melodie}
+          badge="Ambassadeur"
+          image={joel}
         />
         <ProfCard
           name="Antoine"
