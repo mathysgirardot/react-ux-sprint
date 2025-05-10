@@ -1,0 +1,145 @@
+/* === GLOBAL === */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: var(--grey);
+}
+
+
+/* === MAIN === */
+.profile-page {
+  padding: 3rem 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.profile-card,
+.reviews {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.profile-card h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: var(--bleu-800);
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.bio p {
+  margin: 0.5rem 0;
+}
+
+.tags {
+  margin: 1rem 0;
+}
+
+.tag {
+  background: var(--violet-800);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.pricing-rating {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.first-course {
+  background: var(--bleu-200);
+  color: var(--bleu-800);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.95rem;
+}
+
+.badge {
+  background: #eeeeff;
+  color: var(--violet-800);
+  padding: 0.2rem 0.8rem;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+/* === REVIEWS === */
+.reviews h3 {
+  margin-top: 0;
+  color: var(--bleu-800);
+}
+
+.reviews li {
+  margin: 0.5rem 0;
+  list-style: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.reviews li::before {
+  content: "⭐";
+  position: absolute;
+  left: 0;
+}
+
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.profile-picture {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.profile-info h2 {
+  margin-top: 0;
+  font-size: 1.6rem;
+}
+
+.profile-info .location {
+  font-weight: bold;
+  color: var(--bleu-800);
+  margin: 0.5rem 0;
+}

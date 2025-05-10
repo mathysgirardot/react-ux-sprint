@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: var(--grey);
+}
+
+h1, h2, h3, h4 {
+  color: var(--bleu-800);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
