@@ -11,6 +11,7 @@ import antoine from '../assets/profils/antoine.png';
 import jn from '../assets/profils/jean-nicolas.png';
 
 import '../styles/ProductPage.css';
+import ProfessorMap from '../components/ProfessorMap';
 
 function ProductPage() {
   return (
@@ -96,9 +97,7 @@ function ProductPage() {
 
       {/* Map */}
       <section className="map-section">
-        <div className="fake-map">
-          [ Ici viendra la carte Google Maps ]
-        </div>
+        <ProfessorMap />
       </section>
 
       {/* Call to action Web Marketing */}
