@@ -1,5 +1,6 @@
 import React from 'react';
 import ProfCard from '../components/ProfCard';
+import { Link } from 'react-router-dom';
 
 // Import des images PNG
 import antony from '../assets/profils/antony.png';
@@ -29,7 +30,8 @@ function ProductPage() {
 
       {/* Grille des profs */}
       <section className="prof-grid">
-        <ProfCard
+        <Link to="/prof" className="prof-link">
+          <ProfCard
           name="Antony"
           city="Paris"
           format="visio & face à face"
@@ -38,7 +40,8 @@ function ProductPage() {
           reviews={176}
           badge="Ambassadeur"
           image={antony}
-        />
+          />
+        </Link>
         <ProfCard
           name="Julien"
           city="Lille"
