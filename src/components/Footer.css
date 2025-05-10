@@ -1,0 +1,86 @@
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 0.9rem;
+    padding-top: 2rem;
+  }
+  
+  .cta-section {
+    position: relative;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .cta-image {
+    width: 50%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;  
+  }
+  
+  .cta-content {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #908EE7;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+  }  
+  
+  .cta-content p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .cta-content button {
+    background-color: #293395;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .footer-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem 1rem;
+  }
+  
+  .column h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .column li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-icons span {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .social-icons span:hover {
+    opacity: 0.8;
+  }
+  
+  .copyright {
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #333;
+    font-size: 0.8rem;
+  }
+  

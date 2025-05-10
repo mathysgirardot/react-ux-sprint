@@ -1,0 +1,116 @@
+.prof-page {
+  padding: 2rem;
+  background: #f5f5f5;
+}
+
+.prof-link {
+  display: inline-block;    /* pour que le Link s’adapte à la carte */
+  text-decoration: none;     /* pas de soulignement */
+  color: inherit;            /* hérite des couleurs du ProfCard */
+}
+
+/* Header titre + localisation */
+.prof-header {
+  margin-bottom: 2rem;
+}
+.prof-header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+.location {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.3rem 0.8rem;
+  border: 2px solid #735fff;
+  border-radius: 999px;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+/* Contenu en deux colonnes */
+.prof-content {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Texte long à gauche */
+.prof-text {
+  flex: 1 1 300px;
+  line-height: 1.6;
+}
+.prof-tags {
+  margin-top: 1rem;
+}
+.tag {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: 2px solid #735fff;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+/* Colonne droite */
+.prof-aside {
+  flex: 0 0 300px;
+}
+.photo-wrapper {
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.photo-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.fav-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.prof-aside h3 {
+  margin: 1rem 0 0.2rem;
+}
+.subtitle {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.badge {
+  margin-left: auto;
+  background: #f0f0ff;
+  color: #735fff;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 999px;
+  cursor: default;
+}
+.expertise {
+  margin: 1rem 0;
+  font-style: italic;
+}
+.pricing {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.price {
+  font-weight: bold;
+}
+.first-offer {
+  color: #735fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,32 @@
+.category-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.category-card {
+  background: #f9f9f9; /* fond gris très léger */
+  border: 1px solid #ddd; /* stroke gris clair */
+  border-radius: 10px;
+  padding: 1.2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease;
+  text-align: left;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.category-card h4 {
+  margin: 0 0 0.4rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.category-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
