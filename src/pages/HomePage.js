@@ -5,7 +5,7 @@ import testimonial from '../assets/homepage/testimonial.png';
 import '../styles/HomePage.css';
 
 const categories = [
-  { title: 'Web-Marketing', count: 24919 },
+  { title: 'Web-Marketing', count: 24919, link: '/produits' },
   { title: 'Design', count: 9834 },
   { title: 'Développement', count: 3898 },
   { title: 'SEO SEA', count: 1218 },
@@ -28,6 +28,7 @@ function HomePage() {
               key={cat.title}
               title={cat.title}
               count={cat.count}
+              link={cat.link}
             />
           ))}
         </section>

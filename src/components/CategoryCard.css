@@ -1,3 +1,8 @@
+.category-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .category-card {
   background: #f9f9f9; /* fond gris très léger */
   border: 1px solid #ddd; /* stroke gris clair */

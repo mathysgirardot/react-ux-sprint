@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 import leftImage from '../assets/vr-person.png'; // tu dois ajouter cette image dans /src/assets
 import rightImage from '../assets/laptop-guy.png'; // pareil ici
@@ -11,7 +12,9 @@ function Header() {
 
       <div className="header-content">
         <h1>
-          <strong>Hello World</strong>, le site où la tech est à ta portée
+          <strong>
+  <Link to="/" className="hello-link">Hello World</Link>
+          </strong>, le site où la tech est à ta portée
         </h1>
         <div className="search-bar">
           <input type="text" placeholder="Rechercher" />
