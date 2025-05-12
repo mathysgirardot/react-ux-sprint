@@ -5,6 +5,7 @@ import leftImage from '../assets/vr-person.png'; // tu dois ajouter cette image 
 import rightImage from '../assets/laptop-guy.png'; // pareil ici
 import searchIcon from '../assets/search-icon.png'; // pour la loupe
 
+
 function Header() {
   return (
     <header className="header">
