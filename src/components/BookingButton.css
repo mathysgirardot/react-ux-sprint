@@ -1,0 +1,20 @@
+.booking-btn {
+  background-color: #6868DE;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-btn:hover {
+  background-color: #5858c5;
+}
+
+.prof-booking {
+  text-align: center;
+  margin-top: 2rem;
+}

@@ -9,6 +9,7 @@ import orson from '../assets/profils/orson.png';
 import joel from '../assets/profils/joel.png';
 import antoine from '../assets/profils/antoine.png';
 import jn from '../assets/profils/jean-nicolas.png';
+import ProfessorMap from '../components/ProfessorMap';
 
 import '../styles/ProductPage.css';
 
@@ -94,12 +95,12 @@ function ProductPage() {
         />
       </section>
 
-      {/* Map */}
+
+
       <section className="map-section">
-        <div className="fake-map">
-          [ Ici viendra la carte Google Maps ]
-        </div>
-      </section>
+         <ProfessorMap />
+           </section>
+
 
       {/* Call to action Web Marketing */}
       <section className="webmarketing-section">

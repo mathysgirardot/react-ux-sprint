@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
@@ -12,8 +11,13 @@ function App() {
     <Router>
       <Header />
       <Routes>
+        {/* Route vers la page d'accueil */}
         <Route path="/" element={<HomePage />} />
+
+        {/* Route vers la page des produits */}
         <Route path="/produits" element={<ProductPage />} />
+
+        {/* Route vers la page du professeur */}
         <Route path="/prof" element={<ProfPage />} />
       </Routes>
       <Footer />

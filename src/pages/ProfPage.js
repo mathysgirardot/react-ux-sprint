@@ -3,10 +3,29 @@ import './../styles/ProfPage.css';
 import profileImg from '../assets/profils/profile.png';
 
 function ProfPage() {
+  const handleBookingClick = () => {
+    // Informations d'Antony
+    const nomProf = 'Antony';
+    const emailProf = 'antony@example.com';
+    const description = 'Cours de développement avec Antony';
+    const lieu = 'Paris 19e (face à face & webcam)';
+    const titre = `Prendre rendez-vous avec ${nomProf}`;
+
+    // Format de date pour Google Calendar (exemple : 12 mai 2025, 14h00 - 15h00)
+    const startDate = '20230512T140000Z'; // Début de l'événement
+    const endDate = '20230512T150000Z'; // Fin de l'événement
+
+    // URL pour rediriger vers Google Calendar avec les informations pré-remplies
+    const googleCalendarUrl = `https://calendar.google.com/calendar/u/0/r/eventedit?text=${encodeURIComponent(titre)}&dates=${startDate}/${endDate}&details=${encodeURIComponent(description)}&location=${encodeURIComponent(lieu)}&sf=true`;
+
+    // Redirection vers Google Calendar
+    window.location.href = googleCalendarUrl;
+  };
+
   return (
     <main className="prof-page">
 
-      {/* Banniere/intro (on peut réutiliser le header mais ici juste contexte de page) */}
+      {/* Banniere/intro */}
       <section className="prof-header">
         <h2>À propos d'Antony</h2>
         <span className="location">📍 Paris 19ème</span>
@@ -47,6 +66,14 @@ function ProfPage() {
             <a href="/" className="first-offer">1er cours offert</a>
           </div>
         </div>
+      </div>
+
+      {/* Section de prise de rendez-vous */}
+      <div className="prof-booking">
+        <h3>Prendre rendez-vous avec Antony</h3>
+        <button className="booking-btn" onClick={handleBookingClick}>
+          Réservez votre créneau sur Google Calendar
+        </button>
       </div>
 
     </main>
